@@ -1,35 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Landing Page - itsSmaxy - Odin Project</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="header">
-        <div class="logo">Header Logo </div>
-        <ul>
-            <li><a href="http://www.google.com/"> Header Link One</a></li>
-            <li><a href="http://www.google.com/"> Header Link Two</a></li>
-            <li><a href="http://www.google.com/"> Header Link Three</a></li>
-        </ul>
-    </div>
-
-    <main> 
-        <div class="introsection">
-            This website is awesome
-            <div class="herosecondary">
-                <p>This website has some subtext that goes here under the main titla. It's a smaller font and the color is lower contrast.</p>
-                <button class="btn-primary" type="button"> Sign Up</button>
-                <img src = "https://images.unsplash.com/photo-1541185934-01b600ea069c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80" alt="this is a placeholder"> 
-            </div>   
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div>
+        <div class="logo">Header Logo</div>
+        <nav>
+          <ul>
+            <li><a href="http://www.google.com/">Header Link One</a></li>
+            <li><a href="http://www.google.com/">Header Link Two</a></li>
+            <li><a href="http://www.google.com/">Header Link Three</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div>
+          <div>
+            <h1>This website is awesome</h1>
+            <p>
+              This website has some subtext that goes here under the main titla.
+              It's a smaller font and the color is lower contrast.
+            </p>
+            <button type="button">Sign up</button>
+          </div>
+          <img
+            src="https://images.unsplash.com/photo-1541185934-01b600ea069c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80"
+            alt="this is a placeholder"
+          />
         </div>
+      </section>
+      <section>
+        <div>
+          <h2>Some random information</h2>
+          <div class="gallery">
+            <div>
+              <img src="https://via.placeholder.com/200" />
+              <p>this is some subtext under an illustratior ormace</p>
+            </div>
+            <div>
+              <img src="https://via.placeholder.com/200" />
+              <p>this is some subtext under an illustratior ormace</p>
+            </div>
+            <div>
+              <img src="https://via.placeholder.com/200" />
+              <p>this is some subtext under an illustratior ormace</p>
+            </div>
+            <div>
+              <img src="https://via.placeholder.com/200" />
+              <p>this is some subtext under an illustratior ormace</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="gray">
+        <div>
+          <h2 class="sr-only">Some random information</h2>
+          <figure>
+            <blockquote>
+              <p>
+                This is an inspiring quote, or a testimonial from a customer.
+                Maybe it's just filling up space, or maybe people will actually
+                read it. Who knows? All I know is that it looks nice.
+              </p>
+            </blockquote>
+            <figcaption>-Thor, God of Thunder</figcaption>
+          </figure>
+        </div>
+      </section>
+      <section>
+        <div>
+          <h2 class="sr-only">Some random information</h2>
+          <div class="cta">
+            <div>
+              <h3>Call to action! It's time!</h3>
+              <p>
+                Sign up for our product by clicking that button right over
+                there!
+              </p>
+            </div>
+            <button class="secondary" type="button">Sign up</button>
+          </div>
+        </div>
+      </section>
     </main>
-    
     <footer>
-
+      <p>Footer</p>
     </footer>
-</body>
+  </body>
 </html>
