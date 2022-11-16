@@ -5,7 +5,7 @@
     /* box-sizing: border-box; */
 }
 
-.body{
+body{
     display: flex;
     flex-direction: column;
     font-family: Roboto, sans-serif;
@@ -23,14 +23,13 @@
     
 }
 .logo{
-    /* display: flex; */
+    
     padding-left: 100px;
-    /* align-items: center; */
-    /* justify-content: center; */
+   
 }
 
 
-a {
+.header_links a {
     color:#E5E7EB;
     text-decoration: none;
 }
@@ -47,11 +46,13 @@ a {
 }
 .introsection{
     display: flex;
-    gap: 400px;
+    gap: 150px;
+    justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
     text-decoration: none;
-    padding-left: 100px;
+    
+    padding-bottom: 100px;
     color: #F9FAF8;
     background: #1F2937;
 }
@@ -61,6 +62,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    
     
 }
 
@@ -90,7 +92,39 @@ a {
 }
 
 .introsection img{
-    margin-top: 100px;
-    max-width: 30%;
+     margin-top: 100px;
+    /*margin-left: 200px;
+    margin-right: 200px; */
+    flex: 1;
+    min-width: 350px;
+    max-width: 400px;
     height: auto;
+}
+
+.infobox {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+.infobox p {
+    align-self: center;
+
+}
+
+.infoboxes{
+    /* Working horizontally as main axis */
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.infoboxes > * {
+    list-style: none;
+    color: white;
+    border: 7px solid blue;
+    border-radius: 50px;
+    
+    line-height: 250px;
+    
+    /* background:blue; */
 }
