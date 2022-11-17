@@ -23,9 +23,7 @@ body{
     
 }
 .logo{
-    
     padding-left: 100px;
-   
 }
 
 
@@ -102,29 +100,72 @@ body{
 }
 
 .infobox {
+    
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     /* align-items: center; */
 }
 .infobox p {
     align-self: center;
-
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937
 }
 
-.infoboxes{
+.infoboxes {
     /* Working horizontally as main axis */
     display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
+    /* gap: 8em; */
     
+}
+
+.textunderbox{
+    display: flex;
+    justify-content: space-evenly;
+    /* gap: 8em; */
+    list-style: none;
+}
+.textunderbox > * {
+    max-width: 180px;
+    text-align: center;
 }
 
 .infoboxes > * {
     list-style: none;
-    color: white;
-    border: 7px solid blue;
-    border-radius: 50px;
-    
+    color: transparent;
+    border: 5px solid blue;
+    border-radius: 30px;
     line-height: 250px;
-    
+
+    max-width: 180px;
+    max-height: 180px;
     /* background:blue; */
+}
+
+.quote{
+    /* border: 4px solid lime; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    background-color: #E5E7EB
+    
+}
+.quote :nth-child(1){
+    font-size: 36px;
+    font-weight: 1;
+    font-style: italic;
+    max-width: 800px;
+    color:#1F2937
+    
+}
+.quote :nth-child(2){
+    margin-left: 15em;
+    font-size: 30px;
+    align-self: center;
+    font-weight: bolder;
 }
