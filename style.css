@@ -147,15 +147,20 @@ body{
 
 .quote{
     /* border: 4px solid lime; */
+    padding: 80px;
+    
+    margin:-10px;
+    background-color: #E5E7EB
+    
+}
+.container_quote{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 80px;
-    background-color: #E5E7EB
     
 }
-.quote :nth-child(1){
+.container_quote :nth-child(1){
     font-size: 36px;
     font-weight: 1;
     font-style: italic;
@@ -163,9 +168,65 @@ body{
     color:#1F2937
     
 }
-.quote :nth-child(2){
+.container_quote :nth-child(2){
     margin-left: 15em;
     font-size: 30px;
     align-self: center;
     font-weight: bolder;
 }
+
+.actioncall{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.containerTop{
+    display: flex;
+    margin:50px;
+    background-color: #3882F6;
+    padding: 15px 200px 15px 200px;
+    gap: 100px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.container_action :nth-child(1){
+    font-size: 20px;
+    color: #F9FAF8;
+}
+.container_action :nth-child(2){
+    all:none;
+    line-height: 2px;
+    font-size: 15px;
+    color: #E5E7EB
+}
+
+.btn-secondary{
+    margin-top:-5px;
+    background-color: #3882F6;
+    border:2px white solid;    
+    border-radius: 10px;
+    padding:5px 30px 5px 30px;
+    max-width: 200px;
+    color: #E5E7EB
+
+}
+
+footer{
+   
+    background-color: #1F2937;
+    padding:30px 0px 30px 0px;
+    margin-left:-10px;
+    margin-right: -10px;
+    margin-bottom: -10px;
+    
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB
+    
+}
+
